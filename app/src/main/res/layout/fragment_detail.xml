@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".DetailFragment"
+              android:padding="8dp">
+
+	<!-- TODO: Update blank fragment layout -->
+	<ImageView
+			android:id="@+id/returnArrow"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/baseline_arrow_back_24"
+	></ImageView>
+
+	<TextView
+			android:id="@+id/fileName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="File Name"
+			android:textSize="24dp"
+			android:layout_gravity="center"
+			android:layout_marginBottom="16dp"
+	/>
+
+	<TextView
+			android:id="@+id/filecontent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="File Content"
+			android:textSize="18dp"
+			android:layout_gravity="center"
+	/>
+
+	<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/fileImage"
+	/>
+
+</LinearLayout>
+
+

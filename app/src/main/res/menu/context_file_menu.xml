@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/rename_file" android:title="Rename"></item>
+	<item android:id="@+id/delete_file" android:title="Delete"></item>
+	<item android:id="@+id/copy_file" android:title="Copy"></item>
+</menu>
